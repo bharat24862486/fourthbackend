@@ -1,5 +1,5 @@
 const express = require("express")
-const userRoute = require("./route/user.route")
+
 const connection = require("./db")
 
 
@@ -24,3 +24,6 @@ app.listen(8080,async()=>{
 
     console.log("server is running on port 8080")
 })
+
+
+module.exports = app
